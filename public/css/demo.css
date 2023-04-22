@@ -1,0 +1,148 @@
+*{
+  font-family: Minecraftia !important;
+}
+div.chat div.chat-right{
+left:0px;
+width:100%;
+}
+
+
+code{border:none !important;}
+
+div.content pre,
+div.content pre>code,
+div.content pre>code>span
+{
+background-color:#222222 !important;
+
+}
+
+div.content code:not(pre>code){
+background-color:#3C4454 !important;
+}
+
+div.message.assistant>div.content{
+
+background-color:rgba(0,0,0,0.5)  !important;  
+  color:yellow !important;
+
+}
+
+
+div.chat{
+
+background-color:#444444 !important; 
+  
+}
+
+
+.chat-header{
+display:block !important;
+background-color:#222222 !important;
+ color:#0069cf !important;  
+
+}
+.chat-header>h3>span{
+
+font-family: 'Minecraft Evenings', sans-serif  !important;
+     font-weight: normal;
+    font-size: 2em;
+  color:lightgrey;
+      text-shadow: 1px 1px 1px #000000,
+        1px 2px 1px #000000,
+        1px 3px 1px #000000,
+        1px 4px 1px #000000,
+        1px 5px 1px #000000,
+        1px 6px 1px #000000,
+        1px 7px 1px #000000,
+        1px 8px 1px #000000,
+        1px 9px 1px #000000,
+        1px 10px 1px #000000,
+    1px 18px 6px rgba(16,16,16,1),
+    1px 22px 10px rgba(16,16,16,0.9),
+    1px 25px 35px rgba(16,16,16,0.9),
+    1px 30px 60px rgba(16,16,16,1);
+  
+}
+
+div.chat-input
+{
+
+background-color:#222222 !important;
+  
+}
+
+div.chat-content,
+textarea#input
+{
+
+background-color:#333333 !important;
+  color:white;
+  
+}
+
+div.chat-content{
+
+background-size:300px;
+background-image:url('https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c1/Dirt_background_JE2.png');
+  
+}
+
+body{
+
+  background-color:#070e15 !important;
+  
+}
+
+div.message.user>div.content{
+
+background-color:rgba(0,0,0,0.5)  !important;
+
+
+  
+}
+
+button{
+margin:4px !important;
+background-color:green !important;
+border-color:#3C4454 !important;
+border-style:solid !important;
+border-width:1px !important;
+  border-radius: 2px;
+}
+
+body,
+button{
+
+}
+
+button#deep{
+ font-weight: bold;
+ 
+}
+
+
+
+.message.assistant[thinking]:last-child:after{
+   font-family: Minecraftia !important;
+padding-top:10px;
+  padding-left:20px;
+content: attr(thinking) !important;
+color:yellow !important;
+  animation-name: thinking;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes thinking {
+  0% {transform: translate(0);font-size:1.1em;scale: 0.9;font-family: Minecraftia !important;}
+  50% {transform: translate(5px,0px);font-size:0.9em;scale: 1.1;font-family: Minecraftia !important;}
+  100% {transform: translate(0);font-size:1.1em;scale: 0.9;font-family: Minecraftia !important;}
+}
+
+.assisstant>.content>.chunk:first-child{
+font-family: Minecraftia !important;
+  text-transform:capitalize;
+  
+}
