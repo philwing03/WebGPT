@@ -52,7 +52,7 @@ function decodeSnippets(code) {
   code = codeBits.join('`');
 
 
-  return code;
+  return code; 
 }
 
 function lcws(text1, text2) {/*longest common word subsequence*/
