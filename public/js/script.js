@@ -605,7 +605,7 @@ void function SendPrimer() {
 
 
   }
-}?.();
+}?.(); 
 
 
 function JSONExtract(raw, key) {
